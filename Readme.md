@@ -64,9 +64,6 @@ Contributions to this project are welcome! Here's how you can contribute:
 
 For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE.md) file for details.
-
 ## Contact
 - **Petre Vane** - petre.vane@aws-dev.cloud
 - Project Link: [GitHub - PetreVane/tf-scripts](https://github.com/PetreVane/tf-scripts/tree/main/network-load-balancer)
