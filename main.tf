@@ -14,7 +14,7 @@ module "security-group" {
 module "launch-template" {
   source                      = "./launch-template"
   image_id                    = "ami-0f673487d7e5f89ca"
-  instance_type               = "t2.micro" # change it as you like
+  instance_type               = "t2.micro"
   aws_security_group_id       = module.security-group.aws_security_group_id
 }
 
@@ -37,5 +37,4 @@ module "network-load-balancer" {
   nlb-subnet-1                = module.vpc.tf-public-subnet-1-id
   nlb-subnet-2                = module.vpc.tf-public-subnet-2-id
   target-group-arn            = module.target-group.target-group-arn
-#   vpc_id                      = module.vpc.vpc_id
 }
